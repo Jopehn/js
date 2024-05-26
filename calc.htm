@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="../src/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../src/calc.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="h1 padding-botton-20">Calculator</div>
+		<p>
+			<p>
+				<input type="text" id="num1" name="" placeholder="First number" class="form-control">
+			</p>
+			<p>
+				<input type="text" id="num2" name="" placeholder="Second number" class="form-control">
+			</p>
+			<p class="padding-top-10 padding-botton-10">
+				<button id="add" class="button h4 circle width-50 hover-green heigth-50">+</button>
+				<button id="substract" class="button h4 circle width-50 hover-green heigth-50">-</button>
+				<button id="product" class="button h4 circle width-50 hover-green heigth-50">*</button>
+				<button id="divide" class="button h4 circle width-50 hover-green heigth-50">/</button>
+				<button id="power" class="button h4 circle width-50 hover-green heigth-50">^</button>
+			</p>
+			<p class="text-bold">
+				Your answer is: <span class="h2" id="answer"></span>
+			</p>
+		</p>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<script src="../src/calc.js"></script>
+</body>
+</html>

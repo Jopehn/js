@@ -1,0 +1,16 @@
+#caja_resultado{
+	border: 1px solid #ccc;
+	padding: 20px;
+}
+#resultado{
+	background: #222;
+	color: #fff;
+	font-size: 2rem;
+	padding: 15px;
+}
+.btn{
+	border-radius: 0 !important;
+}
+.input{
+	border-radius: 0;
+}
