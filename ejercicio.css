@@ -1,0 +1,24 @@
+:root{
+    --color-pelota: #008000;
+}
+#pelota{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-pelota);
+    border-radius: 50%;
+    position: absolute;
+}
+#contenedor{
+    width: 500px;
+    height: 500px;
+    border: 1px solid var(--color-pelota);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botones{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
